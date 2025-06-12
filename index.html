@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlidePlay - Stream Smarter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: #fff;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .features, .reviews, .payments {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      margin: 20px auto;
+      max-width: 1000px;
+      padding: 20px;
+    }
+    .features h2, .reviews h2, .payments h2 {
+      margin-bottom: 20px;
+    }
+    .feature-list, .review-list, .payment-methods {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .feature, .review, .payment {
+      flex: 1 1 250px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 15px 25px;
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    @media(max-width: 600px) {
+      .feature, .review, .payment {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to GlidePlay</h1>
+    <p>Your gateway to discounted premium streaming</p>
+  </header>
+
+  <section class="features">
+    <h2>Why Choose GlidePlay?</h2>
+    <div class="feature-list">
+      <div class="feature">🌍 Access All Major Streaming Platforms</div>
+      <div class="feature">💸 Enjoy Discounted Prices</div>
+      <div class="feature">📱 Mobile & PC Friendly</div>
+      <div class="feature">⚡ Instant Activation</div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h2>What Our Users Say</h2>
+    <div class="review-list">
+      <div class="review">"Incredible value! I watch more and spend less. Love it!" – Sarah M.</div>
+      <div class="review">"Great support and smooth access to my shows. Highly recommend." – James K.</div>
+      <div class="review">"It works on my phone and smart TV perfectly. So easy to use." – Aisha N.</div>
+    </div>
+  </section>
+
+  <section class="payments">
+    <h2>Accepted Payment Methods</h2>
+    <div class="payment-methods">
+      <div class="payment">✔️ PayPal</div>
+      <div class="payment">✔️ Wise</div>
+      <div class="payment">✔️ Cryptocurrency</div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/27686173391" class="whatsapp-button">Contact Us on WhatsApp</a>
+
+  <footer>
+    <p>&copy; 2025 GlidePlay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
